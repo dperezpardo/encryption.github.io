@@ -1,0 +1,109 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #ed0722;
+}
+
+h1{
+  margin: 15px 0 25px;
+  text-align: center;
+  font-size: 30px;
+}
+
+input{
+  color: #022255 !important;
+}
+
+/* Sombra borde de los campos*/
+input[type="password"]:focus,
+input[type="text"]:focus{
+  box-shadow: 0 0 5px rgba(246, 8, 118, 0.8);
+  border: 1px solid rgba(246, 8, 118, 0.8);
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.form-horizontal{
+  background-color: #ffffff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+.logo-horizontal{
+  width: 25%;
+  display: flex;
+  padding: 25px 30px;
+}
+
+.control-label{
+  text-align: left !important;
+  padding-bottom: 4px;
+}
+
+.progress{
+  height: 3px !important;
+}
+
+.form-group{
+  margin-bottom: 10px;
+}
+
+.show-pass{
+  position: absolute;
+  top: 21%;
+  right: 7%;
+}
+
+.progress-bar-danger{
+  background-color: #e90f10;
+}
+
+.progress-bar-warning{
+  background-color: #ffad00;
+}
+
+.progress-bar-success{
+  background-color: #02b502;
+}
+
+.login-btn{
+  width: 180px !important;
+  background-image: linear-gradient(to right, #f6886e, #ff133a) !important;
+  font-size: 10px;
+  color: #fff;
+  margin: 0 auto; 5px;
+  padding: 8px 0;
+}
+
+.login-btn:hover{
+  background-image: linear-gradient(to rigth, rgba(255, 0, 111, 0.8), rgba(247, 2, 43, 0.8)) !important;
+  color: #fff;
+}
+
+.fa-eye{
+  color: #022255;
+  cursor: pointer;
+}
+
+.ex-account p a{
+  color: #f6086e;
+  text-decoration: underline;
+}
+
+.fa-circle{
+  font-size: 8px;
+}
+
+.fa-check{
+  color: #02b502;
+}
+
+.fa-times{
+  color: #ed0722;
+}
